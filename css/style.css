@@ -446,8 +446,11 @@ body {
 }
 
 #slide-4 i {
-		font-size: 80px;
+		font-size: 30px;
 		color: white;
+	}
+#slide-4 ul {
+	font-size:30px;
 	}
 
 

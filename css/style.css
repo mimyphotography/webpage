@@ -308,7 +308,9 @@ body {
 	color: #fff;
 	padding-top: 90px;
 }
-
+#slide-2 .container{
+	width:900px;
+}
 	.title-row {
 		font-size: 45px;
 		padding-bottom: 50px;
@@ -406,6 +408,13 @@ body {
 		margin: 0 auto;
 		width: 100%;
 	}
+#slide-3 h1 {
+font-family: "Titillium Web", sans-serif;
+color:#fff;
+text-decoration:underline;
+
+text-align: center;
+}
 	
 @media (max-width: 991px) {
 	#slide-3 {
@@ -431,8 +440,10 @@ body {
 		max-width: 100%;
 		width: auto;
 	}
-}
-	
+ #slide-3 col-lg-2{
+ width:20%;
+ }
+	}
 @media (max-width: 767px) {
 	#slide-3 .col-12 {
 		width: 100%;
@@ -446,20 +457,30 @@ body {
 }
 
 #slide-4 i {
-		font-size: 30px;
+		
 		color: white;
 	}
 #slide-4 ul {
 	font-size:26px;
 	}
+#slide-4 img 
+	{
+	border:1px solid #fff;
+	}
 
 
 #slide-5 {
-	background-color: #f39c12;
+	background-color: #548965;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
+#slide-5 .container {
+	max-width:1000px;
+	}
 
+#slide-5 h3 , h4{
+font-family: "Titillium Web", sans-serif;
+}
 #slide-6 {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
@@ -614,4 +635,11 @@ body {
 
 .navigation-slide {
 	cursor: pointer;
+}
+/*para galeria */
+#services {
+    background: ##E7F4E3;
+    margin-top: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
